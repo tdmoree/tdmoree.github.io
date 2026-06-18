@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hire Me | Timothy Ezenwagu</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    min-height:100vh;
+}
+
+.container{
+    width:90%;
+    max-width:800px;
+    margin:auto;
+    padding:50px 0;
+}
+
+.hero{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.hero h1{
+    font-size:2.5rem;
+    margin-bottom:15px;
+}
+
+.hero p{
+    color:#cbd5e1;
+    line-height:1.6;
+}
+
+.form-card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:15px;
+}
+
+.form-group{
+    margin-bottom:20px;
+}
+
+label{
+    display:block;
+    margin-bottom:8px;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#334155;
+    color:white;
+}
+
+textarea{
+    min-height:150px;
+    resize:vertical;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#38bdf8;
+    color:#000;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+}
+
+.whatsapp{
+    margin-top:25px;
+    text-align:center;
+}
+
+.whatsapp a{
+    color:#25D366;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.back{
+    text-align:center;
+    margin-top:25px;
+}
+
+.back a{
+    color:#38bdf8;
+    text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="hero">
+<h1>Let's Build Something Great</h1>
+<p>
+Tell me about your project and I'll get back to you as soon as possible.
+</p>
+</div>
+
+<div class="form-card">
+
+<form action="https://formspree.io/f/xpqebewe" method="POST">
+
+    <div class="form-group">
+<label>Full Name</label>
+<input type="text" name="name" required>
+</div>
+
+<div class="form-group">
+<label>Email Address</label>
+<input type="email" name="email" required>
+</div>
+
+<div class="form-group">
+<label>Company Name (Optional)</label>
+<input type="text" name="company">
+</div>
+
+
+<!--<input type="text" name="name" required>
+
+<input type="email" name="email" required>
+
+<input type="text" name="company">
+
+<select name="project_type">-->
+<div class="form-group">
+<label>Project Type</label>
+<select required>
+<option>Business Website</option>
+<option>Ecommerce Store</option>
+<option>Landing Page</option>
+<option>Portfolio Website</option>
+<option>Graphic Design</option>
+<option>Other</option>
+</select>
+</div>
+
+<div class="form-group">
+<label>Budget</label>
+<select name="budget">
+<option>Under ₦50,000</option>
+<option>₦50,000 - ₦100,000</option>
+<option>₦100,000 - ₦300,000</option>
+<option>₦300,000+</option>
+</select>
+</div>
+
+<div class="form-group">
+<label>Project Details</label>
+<textarea placeholder="Tell me about your project..."  name="project_details" required></textarea>
+</div>
+
+ <!-- Redirect after successful submission -->
+    <input
+        type="hidden"
+        name="_next"
+        value="https://tdmoree.github.io/thankyou.html">
+
+    <button type="submit">
+        Send Inquiry
+    </button>
+
+</form>
+
+<div class="whatsapp">
+<p>Need a faster response?</p>
+<br>
+<a href="https://wa.me/2348078561978?text=Hello%20Timothy,%20I%20would%20like%20to%20discuss%20a%20project." target="_blank">
+Chat on WhatsApp
+</a>
+</div>
+
+</div>
+
+<div class="back">
+<br>
+<a href="index.html">← Back to Portfolio</a>
+</div>
+
+</div>
+
+</body>
+</html>
